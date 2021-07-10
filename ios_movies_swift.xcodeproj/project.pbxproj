@@ -13,6 +13,8 @@
 		283B99482697596B00EB592A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283B99462697596B00EB592A /* Main.storyboard */; };
 		283B994A2697596C00EB592A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 283B99492697596C00EB592A /* Assets.xcassets */; };
 		283B994D2697596C00EB592A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 283B994B2697596C00EB592A /* LaunchScreen.storyboard */; };
+		28E44AD82699942A00AE5B5F /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E44AD62699942A00AE5B5F /* MovieTableViewCell.swift */; };
+		28E44AD92699942A00AE5B5F /* MovieTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28E44AD72699942A00AE5B5F /* MovieTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		283B99492697596C00EB592A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		283B994C2697596C00EB592A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		283B994E2697596C00EB592A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E44AD62699942A00AE5B5F /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		28E44AD72699942A00AE5B5F /* MovieTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				283B99492697596C00EB592A /* Assets.xcassets */,
 				283B994B2697596C00EB592A /* LaunchScreen.storyboard */,
 				283B994E2697596C00EB592A /* Info.plist */,
+				28E44AD62699942A00AE5B5F /* MovieTableViewCell.swift */,
+				28E44AD72699942A00AE5B5F /* MovieTableViewCell.xib */,
 			);
 			path = ios_movies_swift;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				283B994D2697596C00EB592A /* LaunchScreen.storyboard in Resources */,
 				283B994A2697596C00EB592A /* Assets.xcassets in Resources */,
+				28E44AD92699942A00AE5B5F /* MovieTableViewCell.xib in Resources */,
 				283B99482697596B00EB592A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				283B99452697596B00EB592A /* ViewController.swift in Sources */,
 				283B99412697596B00EB592A /* AppDelegate.swift in Sources */,
+				28E44AD82699942A00AE5B5F /* MovieTableViewCell.swift in Sources */,
 				283B99432697596B00EB592A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
